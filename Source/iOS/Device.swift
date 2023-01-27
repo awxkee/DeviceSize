@@ -161,6 +161,8 @@ open class Device {
                 }
             case 926:
                 return .screen6_7Inch
+            case 932:
+                return .screen6_69Inch
             case 1024:
                 switch version() {
                 case .iPadMini, .iPadMini2, .iPadMini3, .iPadMini4, .iPadMini5:

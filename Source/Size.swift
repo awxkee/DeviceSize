@@ -25,6 +25,8 @@ public enum Size: Int, Comparable {
     case screen6_1Inch
     /// iPhone 14 Pro
     case screen6_12Inch
+    /// iPhone 14 Pro Max
+    case screen6_69Inch
     /// iPhone Xs Max, 11 Pro Max
     case screen6_5Inch
     /// iPhone 12 Pro Max
