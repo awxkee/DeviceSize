@@ -183,7 +183,7 @@ open class Device {
             case 1366:
                 return .screen12_9Inch
             default:
-                return .unknownSize
+                return .unknownSize(Int(screenHeight))
         }
     }
     
@@ -198,12 +198,12 @@ open class Device {
 
     @available(*, deprecated, message: "use > operator instead")
     static public func isLargerThanScreenSize(_ size: Size) -> Bool {
-        return size.rawValue < self.size().rawValue ? true : false;
+        return size.value < self.size().value ? true : false;
     }
 
     @available(*, deprecated, message: "use < operator instead")
     static public func isSmallerThanScreenSize(_ size: Size) -> Bool {
-        return size.rawValue > self.size().rawValue ? true : false;
+        return size.value > self.size().value ? true : false;
     }
     
     static public func isRetina() -> Bool {
