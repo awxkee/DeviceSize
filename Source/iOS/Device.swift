@@ -59,6 +59,10 @@ open class Device {
             case "iPhone14,8":                               return .iPhone14Plus
             case "iPhone15,2":                               return .iPhone14Pro
             case "iPhone15,3":                               return .iPhone14Pro_Max
+            case "iPhone15,4":                               return .iPhone15
+            case "iPhone15,5":                               return .iPhone15Plus
+            case "iPhone16,1":                               return .iPhone15Pro
+            case "iPhone16,2":                               return .iPhone15ProMax
 
             /*** iPad ***/
             case "iPad1,1", "iPad1,2":                       return .iPad1
@@ -92,6 +96,8 @@ open class Device {
             case "iPad13,4", "iPad13,5", "iPad13,6", "iPad13,7": return .iPadPro11_0Inch3
             case "iPad8,11", "iPad8,12":                     return .iPadPro12_9Inch4
             case "iPad13,8", "iPad13,9", "iPad13,10", "iPad13,11": return .iPadPro12_9Inch5
+            case "iPad14,3", "iPad14,4":                     return .iPadPro11_0Inch4
+            case "iPad14,5", "iPad14,6":                     return .iPadPro12_9Inch6
 
             /*** iPod ***/
             case "iPod1,1":                                  return .iPodTouch1Gen
