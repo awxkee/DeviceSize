@@ -108,7 +108,7 @@ public enum Size: Comparable {
         case .screen12_9Inch:
             return 19
         case .screen13Inch:
-            20
+            return 20
 #if os(OSX)
         case .screen13Inch:
             return 21
