@@ -192,6 +192,8 @@ open class Device {
                 return .screen11Inch
             case 1366:
                 return .screen12_9Inch
+            case 1376:
+                return .screen13Inch
             default:
                 return .unknownSize(Int(screenHeight))
         }
