@@ -63,6 +63,11 @@ open class Device {
             case "iPhone15,5":                               return .iPhone15Plus
             case "iPhone16,1":                               return .iPhone15Pro
             case "iPhone16,2":                               return .iPhone15ProMax
+            case "iPhone17,3":                               return .iPhone16
+            case "iPhone17,4":                               return .iPhone16Plus
+            case "iPhone17,1":                               return .iPhone16Pro
+            case "iPhone17,2":                               return .iPhone16Pro_Max
+            case "iPhone17,5":                               return .iPhone16e
 
             /*** iPad ***/
             case "iPad1,1", "iPad1,2":                       return .iPad1
@@ -84,6 +89,7 @@ open class Device {
             case "iPad5,1", "iPad5,2":                       return .iPadMini4
             case "iPad11,1", "iPad11,2":                     return .iPadMini5
             case "iPad14,1", "iPad14,2":                     return .iPadMini6
+            case "iPad16,1", "iPad16,2":                     return .iPadMini7
 
             /*** iPadPro ***/
             case "iPad6,3", "iPad6,4":                       return .iPadPro9_7Inch
@@ -98,6 +104,10 @@ open class Device {
             case "iPad13,8", "iPad13,9", "iPad13,10", "iPad13,11": return .iPadPro12_9Inch5
             case "iPad14,3", "iPad14,4":                     return .iPadPro11_0Inch4
             case "iPad14,5", "iPad14,6":                     return .iPadPro12_9Inch6
+            case "iPad14,8", "iPad14,9":                     return .iPadAirM2_11Inch
+            case "iPad14,10", "iPad14,11":                   return .iPadAirM2_13Inch
+            case "iPad15,3", "iPad15,4":                     return .iPadAirM3_11Inch
+            case "iPad15,5", "iPad15,6":                     return .iPadAirM3_13Inch
 
             /*** iPod ***/
             case "iPod1,1":                                  return .iPodTouch1Gen

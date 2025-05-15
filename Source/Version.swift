@@ -49,6 +49,11 @@ public enum Version: String {
     case iPhone15Plus
     case iPhone15Pro
     case iPhone15ProMax
+    case iPhone16
+    case iPhone16Plus
+    case iPhone16Pro
+    case iPhone16Pro_Max
+    case iPhone16e
 
     /*** iPad ***/
     case iPad1
@@ -64,12 +69,17 @@ public enum Version: String {
     case iPadAir2
     case iPadAir3
     case iPadAir4
+    case iPadAirM2_11Inch
+    case iPadAirM2_13Inch
+    case iPadAirM3_11Inch
+    case iPadAirM3_13Inch
     case iPadMini
     case iPadMini2
     case iPadMini3
     case iPadMini4
     case iPadMini5
     case iPadMini6
+    case iPadMini7
 
     /*** iPadPro ***/
     case iPadPro9_7Inch
