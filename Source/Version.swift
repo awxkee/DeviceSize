@@ -58,6 +58,10 @@ public enum Version: String {
     case iPhone17Pro
     case iPhone17Pro_Max
     case iPhoneAir
+    case iPhone17e
+    case iPhone18Pro
+    case iPhone18Pro_Max
+    case iPhoneDuo
 
     /*** iPad ***/
     case iPad1
@@ -69,6 +73,8 @@ public enum Version: String {
     case iPad7
     case iPad8
     case iPad9
+    case iPad10
+    case iPad11
     case iPadAir
     case iPadAir2
     case iPadAir3
@@ -77,6 +83,8 @@ public enum Version: String {
     case iPadAirM2_13Inch
     case iPadAirM3_11Inch
     case iPadAirM3_13Inch
+    case iPadAirM4_11Inch
+    case iPadAirM4_13Inch
     case iPadMini
     case iPadMini2
     case iPadMini3
@@ -84,6 +92,7 @@ public enum Version: String {
     case iPadMini5
     case iPadMini6
     case iPadMini7
+    case iPadMini8
 
     /*** iPadPro ***/
     case iPadPro9_7Inch
@@ -98,6 +107,10 @@ public enum Version: String {
     case iPadPro12_9Inch5
     case iPadPro11_0Inch4
     case iPadPro12_9Inch6
+    case iPadProM4_11Inch
+    case iPadProM4_13Inch
+    case iPadProM5_11Inch
+    case iPadProM5_13Inch
 
     /*** iPod ***/
     case iPodTouch1Gen

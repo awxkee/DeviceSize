@@ -15,7 +15,7 @@ public enum Size: Comparable {
     case screen4Inch
     /// iPhone 6, 6s, 7, 8, SE 2nd gen.
     case screen4_7Inch
-    /// iPhone 12 Mini
+    /// iPhone 12 Mini, iPhone Duo (folded)
     case screen5_4Inch
     /// iPhone 6+, 6s+, 7+, 8+
     case screen5_5Inch
@@ -25,16 +25,24 @@ public enum Size: Comparable {
     case screen6_1Inch
     /// iPhone 14 Pro
     case screen6_12Inch
-    /// iPhone 14 Pro Max
+    /// iPhone 16 Pro, 17, 17 Pro, 18 Pro
+    case screen6_3Inch
+    /// iPhone 14 Pro Max, iPhone Air
     case screen6_5Inch
     /// iPhone 12 Pro Max, 13 Pro Max, 14 Plus
     case screen6_7Inch
+    /// iPhone 16 Pro Max, 17 Pro Max, 18 Pro Max
+    case screen6_9Inch
+    /// iPhone Duo (unfolded)
+    case screen7_6Inch
     /// iPad Mini
     case screen6_69Inch
     /// iPhone Xs Max, 11 Pro Max, iPhone 14 Pro Max
     case screen7_9Inch
     /// iPad Mini 6
     case screen8_3Inch
+    /// iPad Mini (A20 Pro)
+    case screen8_5Inch
     /// iPad, iPad Pro (9.7-inch)
     case screen9_7Inch
     /// iPad (10.2-inch)
@@ -43,7 +51,7 @@ public enum Size: Comparable {
     case screen10_5Inch
     /// iPad Air 4th gen.
     case screen10_9Inch
-    /// iPad Pro (11-inch)
+    /// iPad Pro (11-inch), incl. M4 / M5
     case screen11Inch
     /// iPad Pro (12.9-inch)
     case screen12_9Inch
@@ -81,51 +89,59 @@ public enum Size: Comparable {
             return 6
         case .screen6_12Inch:
             return 7
-        case .screen6_69Inch:
+        case .screen6_3Inch:
             return 8
-        case .screen6_5Inch:
+        case .screen6_69Inch:
             return 9
-        case .screen6_7Inch:
+        case .screen6_5Inch:
             return 10
-        case .screen7_9Inch:
+        case .screen6_7Inch:
             return 11
-        case .screen8_3Inch:
+        case .screen6_9Inch:
             return 12
-        case .screen9_7Inch:
+        case .screen7_6Inch:
             return 13
-        case .screen10_2Inch:
+        case .screen7_9Inch:
             return 14
-        case .screen10_5Inch:
+        case .screen8_3Inch:
             return 15
-        case .screen10_9Inch:
+        case .screen8_5Inch:
             return 16
-        case .screen11Inch:
+        case .screen9_7Inch:
             return 17
+        case .screen10_2Inch:
+            return 18
+        case .screen10_5Inch:
+            return 19
+        case .screen10_9Inch:
+            return 20
+        case .screen11Inch:
+            return 21
 #if os(OSX)
         case .screen12Inch:
-            return 18
+            return 22
 #endif
         case .screen12_9Inch:
-            return 19
+            return 23
         case .screen13Inch:
-            return 20
+            return 24
 #if os(OSX)
         case .screen13Inch:
-            return 21
-        case .screen15Inch:
-            return 22
-        case .screen16Inch:
-            return 23
-        case .screen17Inch:
-            return 24
-        case .screen20Inch:
             return 25
-        case .screen21_5Inch:
+        case .screen15Inch:
             return 26
-        case .screen24Inch:
+        case .screen16Inch:
             return 27
-        case .screen27Inch:
+        case .screen17Inch:
             return 28
+        case .screen20Inch:
+            return 29
+        case .screen21_5Inch:
+            return 30
+        case .screen24Inch:
+            return 31
+        case .screen27Inch:
+            return 32
 #endif
         }
     }
